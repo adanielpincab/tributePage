@@ -8,7 +8,7 @@
 }
   
 
-* {margin: 0; padding: 0; font-family: Poppins;}
+* {margin: 0; padding: 0; font-family: Poppins, sans-serif;}
 body {background: #4a4f46;}
 
 #main {
@@ -22,7 +22,7 @@ body {background: #4a4f46;}
 }
 
 #title {
-    font-family: DMSerifDisplay;
+    font-family: DMSerifDisplay, sans-serif;
     font-size: 60px;
 }
 
@@ -41,7 +41,7 @@ body {background: #4a4f46;}
 /* 512 x 445 */
 #image {
     display: block;
-    border-radius: 5px;
+    width: 100%;
     max-width: 512px;
 }
 
@@ -51,7 +51,50 @@ body {background: #4a4f46;}
     max-width: 512px;
 }
 
-#tribute-info{
-    max-width: 512px;
+#tribute-info {
+    max-width: 70%;
     font-size: 18px;
 }
+
+#tribute-link {
+    text-decoration: none;
+    background: #c0c2b0;
+    padding-left: 3px;
+    padding-right: 3px;
+    border-radius: 5px;
+    color:black;
+    transition: background 0.2s;
+}
+#tribute-link:hover {
+    background: #4a4f46;
+    color: white;
+}
+
+hr {
+    margin: 20px;
+    color: black;
+    width: 90%;
+}
+
+#tribute-section-title {
+    text-align: center;
+    font-family: DMSerifDisplay, sans-serif;
+    font-size: 35px;
+    margin: 20px;
+}
+
+#signature, #signature *{
+    font-size: 15px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    width: 90%;
+}
+
+@media only screen and (max-width: 800px) {
+    #main{
+        width: 100%;
+    }
+    #tribute-info{
+        font-size: 15px;
+    }
+  }
