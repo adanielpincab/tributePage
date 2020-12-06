@@ -24,6 +24,7 @@ body {background: #4a4f46;}
 #title {
     font-family: DMSerifDisplay, sans-serif;
     font-size: 60px;
+    text-align: center;
 }
 
 #subtitle {
@@ -97,4 +98,4 @@ hr {
     #tribute-info{
         font-size: 15px;
     }
-  }
+}
